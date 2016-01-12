@@ -52,8 +52,6 @@
 		250332681C4046F000980C23 /* JSQMessagesTypingIndicatorFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503323C1C4046F000980C23 /* JSQMessagesTypingIndicatorFooterView.m */; };
 		250332691C4046F000980C23 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2503323D1C4046F000980C23 /* JSQMessagesTypingIndicatorFooterView.xib */; };
 		2503326C1C40477800980C23 /* JSQSystemSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503326B1C40477800980C23 /* JSQSystemSoundPlayer.m */; };
-		250332701C404CE400980C23 /* ChatOverviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503326F1C404CE400980C23 /* ChatOverviewTableViewController.swift */; };
-		250332721C404DA700980C23 /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250332711C404DA700980C23 /* LoginSignupViewController.swift */; };
 		F70F2C351C26570F00A7069D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70F2C341C26570F00A7069D /* AppDelegate.swift */; };
 		F70F2C3A1C26570F00A7069D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70F2C381C26570F00A7069D /* Main.storyboard */; };
 		F70F2C3C1C26570F00A7069D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70F2C3B1C26570F00A7069D /* Assets.xcassets */; };
@@ -172,8 +170,6 @@
 		2503323D1C4046F000980C23 /* JSQMessagesTypingIndicatorFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSQMessagesTypingIndicatorFooterView.xib; sourceTree = "<group>"; };
 		2503326A1C40477800980C23 /* JSQSystemSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQSystemSoundPlayer.h; sourceTree = "<group>"; };
 		2503326B1C40477800980C23 /* JSQSystemSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQSystemSoundPlayer.m; sourceTree = "<group>"; };
-		2503326F1C404CE400980C23 /* ChatOverviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatOverviewTableViewController.swift; sourceTree = "<group>"; };
-		250332711C404DA700980C23 /* LoginSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		F70F2C311C26570F00A7069D /* IVORY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVORY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70F2C341C26570F00A7069D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F70F2C391C26570F00A7069D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -401,8 +397,6 @@
 				250331DC1C4046B800980C23 /* helper */,
 				F70F2C341C26570F00A7069D /* AppDelegate.swift */,
 				F70F2C381C26570F00A7069D /* Main.storyboard */,
-				250332711C404DA700980C23 /* LoginSignupViewController.swift */,
-				2503326F1C404CE400980C23 /* ChatOverviewTableViewController.swift */,
 				F70F2C3B1C26570F00A7069D /* Assets.xcassets */,
 				F70F2C3D1C26570F00A7069D /* LaunchScreen.storyboard */,
 				F70F2C401C26570F00A7069D /* Info.plist */,
@@ -581,7 +575,6 @@
 				2503324E1C4046F000980C23 /* JSQMessagesBubblesSizeCalculator.m in Sources */,
 				250332521C4046F000980C23 /* JSQLocationMediaItem.m in Sources */,
 				2503325B1C4046F000980C23 /* JSQMessagesCollectionViewCell.m in Sources */,
-				250332701C404CE400980C23 /* ChatOverviewTableViewController.swift in Sources */,
 				2503324F1C4046F000980C23 /* JSQMessagesCollectionViewFlowLayout.m in Sources */,
 				250332461C4046F000980C23 /* JSQMessagesKeyboardController.m in Sources */,
 				250332631C4046F000980C23 /* JSQMessagesLoadEarlierHeaderView.m in Sources */,
@@ -600,7 +593,6 @@
 				2503324D1C4046F000980C23 /* JSQMessagesToolbarButtonFactory.m in Sources */,
 				250332571C4046F000980C23 /* JSQPhotoMediaItem.m in Sources */,
 				250332621C4046F000980C23 /* JSQMessagesLabel.m in Sources */,
-				250332721C404DA700980C23 /* LoginSignupViewController.swift in Sources */,
 				250332551C4046F000980C23 /* JSQMessagesAvatarImage.m in Sources */,
 				250332421C4046F000980C23 /* UIColor+JSQMessages.m in Sources */,
 				2503325E1C4046F000980C23 /* JSQMessagesCollectionViewCellOutgoing.m in Sources */,
