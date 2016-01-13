@@ -53,11 +53,11 @@
 		250332691C4046F000980C23 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2503323D1C4046F000980C23 /* JSQMessagesTypingIndicatorFooterView.xib */; };
 		2503326C1C40477800980C23 /* JSQSystemSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503326B1C40477800980C23 /* JSQSystemSoundPlayer.m */; };
 		2521DB591C45D5090097DFD5 /* NRSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB581C45D5090097DFD5 /* NRSchoolViewController.swift */; };
-		2521DB5B1C45D57C0097DFD5 /* NRCourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB5A1C45D57C0097DFD5 /* NRCourceViewController.swift */; };
+		2521DB5B1C45D57C0097DFD5 /* NRCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB5A1C45D57C0097DFD5 /* NRCourseViewController.swift */; };
 		2521DB5F1C45D6930097DFD5 /* SchoolListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB5E1C45D6930097DFD5 /* SchoolListTableViewController.swift */; };
-		2521DB611C45D6AB0097DFD5 /* CourceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB601C45D6AB0097DFD5 /* CourceListTableViewController.swift */; };
+		2521DB611C45D6AB0097DFD5 /* CourseListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB601C45D6AB0097DFD5 /* CourseListTableViewController.swift */; };
 		2521DB641C45D6F20097DFD5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB631C45D6F20097DFD5 /* ProfileViewController.swift */; };
-		2521DB661C45D7350097DFD5 /* ChatCourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB651C45D7350097DFD5 /* ChatCourceTableViewController.swift */; };
+		2521DB661C45D7350097DFD5 /* ChatCourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB651C45D7350097DFD5 /* ChatCourseTableViewController.swift */; };
 		2521DB681C45D7660097DFD5 /* ChatSectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB671C45D7660097DFD5 /* ChatSectionTableViewController.swift */; };
 		F70F2C351C26570F00A7069D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70F2C341C26570F00A7069D /* AppDelegate.swift */; };
 		F70F2C3A1C26570F00A7069D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70F2C381C26570F00A7069D /* Main.storyboard */; };
@@ -178,11 +178,11 @@
 		2503326A1C40477800980C23 /* JSQSystemSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQSystemSoundPlayer.h; sourceTree = "<group>"; };
 		2503326B1C40477800980C23 /* JSQSystemSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQSystemSoundPlayer.m; sourceTree = "<group>"; };
 		2521DB581C45D5090097DFD5 /* NRSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRSchoolViewController.swift; path = newRegister/NRSchoolViewController.swift; sourceTree = "<group>"; };
-		2521DB5A1C45D57C0097DFD5 /* NRCourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRCourceViewController.swift; path = newRegister/NRCourceViewController.swift; sourceTree = "<group>"; };
+		2521DB5A1C45D57C0097DFD5 /* NRCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRCourseViewController.swift; path = newRegister/NRCourseViewController.swift; sourceTree = "<group>"; };
 		2521DB5E1C45D6930097DFD5 /* SchoolListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchoolListTableViewController.swift; path = profile/SchoolListTableViewController.swift; sourceTree = "<group>"; };
-		2521DB601C45D6AB0097DFD5 /* CourceListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourceListTableViewController.swift; path = profile/CourceListTableViewController.swift; sourceTree = "<group>"; };
+		2521DB601C45D6AB0097DFD5 /* CourseListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseListTableViewController.swift; path = profile/CourseListTableViewController.swift; sourceTree = "<group>"; };
 		2521DB631C45D6F20097DFD5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = profile/ProfileViewController.swift; sourceTree = "<group>"; };
-		2521DB651C45D7350097DFD5 /* ChatCourceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatCourceTableViewController.swift; path = chat/ChatCourceTableViewController.swift; sourceTree = "<group>"; };
+		2521DB651C45D7350097DFD5 /* ChatCourseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatCourseTableViewController.swift; path = chat/ChatCourseTableViewController.swift; sourceTree = "<group>"; };
 		2521DB671C45D7660097DFD5 /* ChatSectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatSectionTableViewController.swift; path = chat/ChatSectionTableViewController.swift; sourceTree = "<group>"; };
 		F70F2C311C26570F00A7069D /* IVORY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVORY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70F2C341C26570F00A7069D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -399,7 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				2521DB581C45D5090097DFD5 /* NRSchoolViewController.swift */,
-				2521DB5A1C45D57C0097DFD5 /* NRCourceViewController.swift */,
+				2521DB5A1C45D57C0097DFD5 /* NRCourseViewController.swift */,
 			);
 			name = newRegister;
 			sourceTree = "<group>";
@@ -407,7 +407,7 @@
 		2521DB5C1C45D5FA0097DFD5 /* chat */ = {
 			isa = PBXGroup;
 			children = (
-				2521DB651C45D7350097DFD5 /* ChatCourceTableViewController.swift */,
+				2521DB651C45D7350097DFD5 /* ChatCourseTableViewController.swift */,
 				2521DB671C45D7660097DFD5 /* ChatSectionTableViewController.swift */,
 			);
 			name = chat;
@@ -417,7 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				2521DB5E1C45D6930097DFD5 /* SchoolListTableViewController.swift */,
-				2521DB601C45D6AB0097DFD5 /* CourceListTableViewController.swift */,
+				2521DB601C45D6AB0097DFD5 /* CourseListTableViewController.swift */,
 				2521DB631C45D6F20097DFD5 /* ProfileViewController.swift */,
 			);
 			name = profile;
@@ -616,7 +616,7 @@
 			files = (
 				250332651C4046F000980C23 /* JSQMessagesMediaPlaceholderView.m in Sources */,
 				2503323F1C4046F000980C23 /* JSQSystemSoundPlayer+JSQMessages.m in Sources */,
-				2521DB611C45D6AB0097DFD5 /* CourceListTableViewController.swift in Sources */,
+				2521DB611C45D6AB0097DFD5 /* CourseListTableViewController.swift in Sources */,
 				250332401C4046F000980C23 /* NSBundle+JSQMessages.m in Sources */,
 				250332531C4046F000980C23 /* JSQMediaItem.m in Sources */,
 				2503324C1C4046F000980C23 /* JSQMessagesTimestampFormatter.m in Sources */,
@@ -638,7 +638,7 @@
 				250332661C4046F000980C23 /* JSQMessagesToolbarContentView.m in Sources */,
 				250332541C4046F000980C23 /* JSQMessage.m in Sources */,
 				250332591C4046F000980C23 /* JSQMessagesCellTextView.m in Sources */,
-				2521DB5B1C45D57C0097DFD5 /* NRCourceViewController.swift in Sources */,
+				2521DB5B1C45D57C0097DFD5 /* NRCourseViewController.swift in Sources */,
 				250332431C4046F000980C23 /* UIDevice+JSQMessages.m in Sources */,
 				2503325A1C4046F000980C23 /* JSQMessagesCollectionView.m in Sources */,
 				250332681C4046F000980C23 /* JSQMessagesTypingIndicatorFooterView.m in Sources */,
@@ -650,7 +650,7 @@
 				2503324A1C4046F000980C23 /* JSQMessagesBubbleImageFactory.m in Sources */,
 				2503324D1C4046F000980C23 /* JSQMessagesToolbarButtonFactory.m in Sources */,
 				250332571C4046F000980C23 /* JSQPhotoMediaItem.m in Sources */,
-				2521DB661C45D7350097DFD5 /* ChatCourceTableViewController.swift in Sources */,
+				2521DB661C45D7350097DFD5 /* ChatCourseTableViewController.swift in Sources */,
 				250332621C4046F000980C23 /* JSQMessagesLabel.m in Sources */,
 				250332551C4046F000980C23 /* JSQMessagesAvatarImage.m in Sources */,
 				250332421C4046F000980C23 /* UIColor+JSQMessages.m in Sources */,

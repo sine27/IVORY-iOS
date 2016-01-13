@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChatCourceTableViewController: UITableViewController, UISearchBarDelegate {
+class ChatCourseTableViewController: UITableViewController, UISearchBarDelegate {
     
     var searchController: UISearchController!
 

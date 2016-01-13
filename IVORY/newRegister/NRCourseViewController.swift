@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NRCourceViewController: UIViewController {
+class NRCourseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

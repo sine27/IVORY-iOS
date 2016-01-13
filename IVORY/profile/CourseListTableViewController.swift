@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CourceListTableViewController: UITableViewController {
+class CourseListTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

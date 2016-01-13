@@ -95,7 +95,7 @@
         <!--CourseList-->
         <scene sceneID="RYt-Ak-h3U">
             <objects>
-                <tableViewController title="CourseList" id="U3m-ml-DZd" customClass="ChatCourceTableViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="CourseList" id="U3m-ml-DZd" customClass="ChatCourseTableViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="91S-x3-iqP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,7 +185,7 @@
                                     <constraint firstAttribute="width" secondItem="UAK-se-Swv" secondAttribute="height" multiplier="200:25" id="ZCq-El-NPo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Chooce School">
+                                <state key="normal" title="Choose School">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -214,10 +214,10 @@
             </objects>
             <point key="canvasLocation" x="1934" y="1446"/>
         </scene>
-        <!--NRCource-->
+        <!--NRCourse-->
         <scene sceneID="qZk-eD-Bce">
             <objects>
-                <viewController title="NRCource" id="m3l-91-kaT" customClass="NRCourceViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="NRCource" id="m3l-91-kaT" userLabel="NRCourse" customClass="NRCourseViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sQY-QX-Eqz"/>
                         <viewControllerLayoutGuide type="bottom" id="Zh4-Gl-x9E"/>
@@ -233,7 +233,7 @@
                                     <constraint firstAttribute="width" secondItem="M0P-U7-cj2" secondAttribute="height" multiplier="200:25" id="4tE-nP-pAu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Chooce Course">
+                                <state key="normal" title="Choose Courses">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -262,16 +262,16 @@
             </objects>
             <point key="canvasLocation" x="1934" y="2275"/>
         </scene>
-        <!--Chooce Cources-->
+        <!--Choose Courses-->
         <scene sceneID="0ye-Md-Uie">
             <objects>
-                <tableViewController id="9Ak-WP-udR" customClass="CourceListTableViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="9Ak-WP-udR" userLabel="Choose Courses" customClass="CourseListTableViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="WNE-yx-oep">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="165.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" id="S0W-a5-7gD">
-                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <rect key="frame" x="0.0" y="64" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
@@ -280,7 +280,7 @@
                         </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aBd-0n-r22">
-                                <rect key="frame" x="0.0" y="72" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="136" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aBd-0n-r22" id="Uen-cW-roX">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -293,7 +293,7 @@
                             <outlet property="delegate" destination="9Ak-WP-udR" id="GmY-jS-Sr3"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Chooce Cources" id="efL-pU-3cu">
+                    <navigationItem key="navigationItem" title="Choose Courses" id="efL-pU-3cu" userLabel="Chooce Courses">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="lgN-oN-fPo"/>
                     </navigationItem>
                     <connections>
@@ -566,6 +566,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="SWx-Q5-HiE"/>
         <segue reference="JHY-HG-HAf"/>
-        <segue reference="dbg-fB-Cua"/>
+        <segue reference="i6J-3J-biz"/>
     </inferredMetricsTieBreakers>
 </document>
