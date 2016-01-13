@@ -95,7 +95,7 @@
         <!--CourseList-->
         <scene sceneID="RYt-Ak-h3U">
             <objects>
-                <tableViewController title="CourseList" id="U3m-ml-DZd" sceneMemberID="viewController">
+                <tableViewController title="CourseList" id="U3m-ml-DZd" customClass="ChatCourceTableViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="91S-x3-iqP">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,17 +124,21 @@
                                 <segue destination="fPL-Cy-GGJ" kind="show" id="htv-la-dTz"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="yl4-rT-zYz"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="yl4-rT-zYz">
+                            <connections>
+                                <action selector="showSearchBar:" destination="U3m-ml-DZd" id="ju1-7z-ixx"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3mH-EC-PD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="310" y="3111"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Chat Section Table View Controller-->
         <scene sceneID="O5P-uq-1BV">
             <objects>
-                <tableViewController id="4ug-qb-GR0" sceneMemberID="viewController">
+                <tableViewController id="4ug-qb-GR0" customClass="ChatSectionTableViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7je-DV-uiA">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
