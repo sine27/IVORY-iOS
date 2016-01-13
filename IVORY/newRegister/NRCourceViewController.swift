@@ -25,10 +25,5 @@ class NRCourceViewController: UIViewController {
         super.viewDidDisappear(animated)
         self.navigationController?.navigationBarHidden = true
     }
-    // show navigation bar in following ViewController
-    override func viewDidDisappear(animated: Bool) {
-        super.viewDidDisappear(animated)
-        self.navigationController?.navigationBarHidden = false
-    }
     
 }
