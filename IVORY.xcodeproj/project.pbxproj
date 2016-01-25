@@ -59,6 +59,10 @@
 		2521DB641C45D6F20097DFD5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB631C45D6F20097DFD5 /* ProfileViewController.swift */; };
 		2521DB661C45D7350097DFD5 /* ChatCourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB651C45D7350097DFD5 /* ChatCourseTableViewController.swift */; };
 		2521DB681C45D7660097DFD5 /* ChatSectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521DB671C45D7660097DFD5 /* ChatSectionTableViewController.swift */; };
+		53C1CFAE1C4740D8001385C5 /* FBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1CFAD1C4740D8001385C5 /* FBLoginViewController.swift */; };
+		53C1CFB11C474114001385C5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C1CFAF1C474114001385C5 /* FBSDKCoreKit.framework */; };
+		53C1CFB21C474115001385C5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C1CFB01C474114001385C5 /* FBSDKLoginKit.framework */; };
+		E86953DC732BA2B528667A64 /* Pods_IVORY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA4143ED806F1DE8B67EDEB /* Pods_IVORY.framework */; };
 		F70F2C351C26570F00A7069D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70F2C341C26570F00A7069D /* AppDelegate.swift */; };
 		F70F2C3A1C26570F00A7069D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70F2C381C26570F00A7069D /* Main.storyboard */; };
 		F70F2C3C1C26570F00A7069D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70F2C3B1C26570F00A7069D /* Assets.xcassets */; };
@@ -184,6 +188,12 @@
 		2521DB631C45D6F20097DFD5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = profile/ProfileViewController.swift; sourceTree = "<group>"; };
 		2521DB651C45D7350097DFD5 /* ChatCourseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatCourseTableViewController.swift; path = chat/ChatCourseTableViewController.swift; sourceTree = "<group>"; };
 		2521DB671C45D7660097DFD5 /* ChatSectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatSectionTableViewController.swift; path = chat/ChatSectionTableViewController.swift; sourceTree = "<group>"; };
+		45F7D530951FC85F6852F662 /* Pods-IVORY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVORY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IVORY/Pods-IVORY.debug.xcconfig"; sourceTree = "<group>"; };
+		53C1CFAD1C4740D8001385C5 /* FBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBLoginViewController.swift; sourceTree = "<group>"; };
+		53C1CFAF1C474114001385C5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		53C1CFB01C474114001385C5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6EA4143ED806F1DE8B67EDEB /* Pods_IVORY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IVORY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC3994B004EA6328F725335 /* Pods-IVORY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IVORY.release.xcconfig"; path = "Pods/Target Support Files/Pods-IVORY/Pods-IVORY.release.xcconfig"; sourceTree = "<group>"; };
 		F70F2C311C26570F00A7069D /* IVORY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVORY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70F2C341C26570F00A7069D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F70F2C391C26570F00A7069D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -203,6 +213,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C1CFB21C474115001385C5 /* FBSDKLoginKit.framework in Frameworks */,
+				53C1CFB11C474114001385C5 /* FBSDKCoreKit.framework in Frameworks */,
+				E86953DC732BA2B528667A64 /* Pods_IVORY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +236,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0356CBF3D3894589FB12EF9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4143ED806F1DE8B67EDEB /* Pods_IVORY.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		250331DC1C4046B800980C23 /* helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +409,8 @@
 		2521DB561C45D4540097DFD5 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				53C1CFAF1C474114001385C5 /* FBSDKCoreKit.framework */,
+				53C1CFB01C474114001385C5 /* FBSDKLoginKit.framework */,
 				2521DB621C45D6C20097DFD5 /* profile */,
 				2521DB5C1C45D5FA0097DFD5 /* chat */,
 				2521DB571C45D4620097DFD5 /* newRegister */,
@@ -400,6 +423,7 @@
 			children = (
 				2521DB581C45D5090097DFD5 /* NRSchoolViewController.swift */,
 				2521DB5A1C45D57C0097DFD5 /* NRCourseViewController.swift */,
+				53C1CFAD1C4740D8001385C5 /* FBLoginViewController.swift */,
 			);
 			name = newRegister;
 			sourceTree = "<group>";
@@ -423,6 +447,35 @@
 			name = profile;
 			sourceTree = "<group>";
 		};
+		257E83181C55B8C5005867D0 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				F70F2C341C26570F00A7069D /* AppDelegate.swift */,
+				F70F2C381C26570F00A7069D /* Main.storyboard */,
+				F70F2C3B1C26570F00A7069D /* Assets.xcassets */,
+				F70F2C3D1C26570F00A7069D /* LaunchScreen.storyboard */,
+				F70F2C401C26570F00A7069D /* Info.plist */,
+			);
+			name = default;
+			sourceTree = "<group>";
+		};
+		257E83191C55B8D1005867D0 /* support files */ = {
+			isa = PBXGroup;
+			children = (
+				250331D81C40446700980C23 /* IVORY-Bridging-Header.h */,
+			);
+			name = "support files";
+			sourceTree = "<group>";
+		};
+		9A5D2F59FE2D765C680C1556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45F7D530951FC85F6852F662 /* Pods-IVORY.debug.xcconfig */,
+				9EC3994B004EA6328F725335 /* Pods-IVORY.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F70F2C281C26570F00A7069D = {
 			isa = PBXGroup;
 			children = (
@@ -430,6 +483,8 @@
 				F70F2C481C26570F00A7069D /* IVORYTests */,
 				F70F2C531C26570F00A7069D /* IVORYUITests */,
 				F70F2C321C26570F00A7069D /* Products */,
+				9A5D2F59FE2D765C680C1556 /* Pods */,
+				0356CBF3D3894589FB12EF9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -446,14 +501,10 @@
 		F70F2C331C26570F00A7069D /* IVORY */ = {
 			isa = PBXGroup;
 			children = (
+				257E83191C55B8D1005867D0 /* support files */,
+				257E83181C55B8C5005867D0 /* default */,
 				2521DB561C45D4540097DFD5 /* UI */,
 				250331DC1C4046B800980C23 /* helper */,
-				F70F2C341C26570F00A7069D /* AppDelegate.swift */,
-				F70F2C381C26570F00A7069D /* Main.storyboard */,
-				F70F2C3B1C26570F00A7069D /* Assets.xcassets */,
-				F70F2C3D1C26570F00A7069D /* LaunchScreen.storyboard */,
-				F70F2C401C26570F00A7069D /* Info.plist */,
-				250331D81C40446700980C23 /* IVORY-Bridging-Header.h */,
 			);
 			path = IVORY;
 			sourceTree = "<group>";
@@ -483,9 +534,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F70F2C591C26570F00A7069D /* Build configuration list for PBXNativeTarget "IVORY" */;
 			buildPhases = (
+				504C301BD42F840E9AE2584E /* Check Pods Manifest.lock */,
 				F70F2C2D1C26570F00A7069D /* Sources */,
 				F70F2C2E1C26570F00A7069D /* Frameworks */,
 				F70F2C2F1C26570F00A7069D /* Resources */,
+				31744FF37169DBCFA30D0663 /* Embed Pods Frameworks */,
+				F136D2A0B7D7CEA5CFDF8444 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -609,6 +663,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31744FF37169DBCFA30D0663 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IVORY/Pods-IVORY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		504C301BD42F840E9AE2584E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F136D2A0B7D7CEA5CFDF8444 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IVORY/Pods-IVORY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F70F2C2D1C26570F00A7069D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -654,6 +756,7 @@
 				250332621C4046F000980C23 /* JSQMessagesLabel.m in Sources */,
 				250332551C4046F000980C23 /* JSQMessagesAvatarImage.m in Sources */,
 				250332421C4046F000980C23 /* UIColor+JSQMessages.m in Sources */,
+				53C1CFAE1C4740D8001385C5 /* FBLoginViewController.swift in Sources */,
 				2503325E1C4046F000980C23 /* JSQMessagesCollectionViewCellOutgoing.m in Sources */,
 				F70F2C351C26570F00A7069D /* AppDelegate.swift in Sources */,
 				250332491C4046F000980C23 /* JSQMessagesAvatarImageFactory.m in Sources */,
@@ -799,9 +902,16 @@
 		};
 		F70F2C5A1C26570F00A7069D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F7D530951FC85F6852F662 /* Pods-IVORY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IVORY",
+					"/Users/liangjiapei/360云盘/编程专区/IVORY-iOS-master/IVORY/Socket.IO-Client-Swift-master",
+					"/Users/liangjiapei/360云盘/编程专区/IVORY-iOS-master/IVORY/Socket.IO-Client-Swift-master/SocketIO-iOS",
+				);
 				INFOPLIST_FILE = IVORY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PurdueIdeaFamily.IVORY;
@@ -813,9 +923,16 @@
 		};
 		F70F2C5B1C26570F00A7069D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC3994B004EA6328F725335 /* Pods-IVORY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IVORY",
+					"/Users/liangjiapei/360云盘/编程专区/IVORY-iOS-master/IVORY/Socket.IO-Client-Swift-master",
+					"/Users/liangjiapei/360云盘/编程专区/IVORY-iOS-master/IVORY/Socket.IO-Client-Swift-master/SocketIO-iOS",
+				);
 				INFOPLIST_FILE = IVORY/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PurdueIdeaFamily.IVORY;

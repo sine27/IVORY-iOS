@@ -7,10 +7,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="yf6-ew-IWq">
             <objects>
-                <viewController id="aKi-VL-4uh" sceneMemberID="viewController">
+                <viewController id="aKi-VL-4uh" customClass="FBLoginViewController" customModule="IVORY" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7nx-3r-bNV"/>
                         <viewControllerLayoutGuide type="bottom" id="fh6-zf-hYB"/>
@@ -29,18 +29,21 @@
                                 <state key="normal" title="Login with facebook">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginWithFBTapped:" destination="aKi-VL-4uh" eventType="touchUpInside" id="xWq-FF-yT8"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WU1-bp-YrF">
                                 <rect key="frame" x="171" y="540" width="259" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2Q-CQ-OZY">
-                                        <rect key="frame" x="0.0" y="0.0" width="124.5" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="30"/>
                                         <state key="normal" title="Sign in with email ">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLJ-2G-QhE">
-                                        <rect key="frame" x="124" y="0.0" width="5.5" height="30"/>
+                                        <rect key="frame" x="125" y="0.0" width="6" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -85,7 +88,7 @@
                     </view>
                     <connections>
                         <segue destination="3V6-uv-Ga6" kind="presentation" modalTransitionStyle="crossDissolve" id="Vkk-gz-keN"/>
-                        <segue destination="msA-6m-VPb" kind="presentation" modalTransitionStyle="crossDissolve" id="JHY-HG-HAf"/>
+                        <segue destination="msA-6m-VPb" kind="presentation" identifier="goToChooseUniversity" modalTransitionStyle="crossDissolve" id="JHY-HG-HAf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mF-I6-5nE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -564,7 +567,7 @@
         <image name="IVORY" width="391" height="169"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SWx-Q5-HiE"/>
+        <segue reference="vYt-pw-bPI"/>
         <segue reference="JHY-HG-HAf"/>
         <segue reference="i6J-3J-biz"/>
     </inferredMetricsTieBreakers>
